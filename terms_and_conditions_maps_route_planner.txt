@@ -1,0 +1,260 @@
+TERMS AND CONDITIONS FOR MAPS AND ROUTE PLANNER
+Last Updated: November 21, 2025
+
+============================================
+1. ACCEPTANCE OF TERMS
+============================================
+
+By using Maps and Route Planner, you agree to be bound by these Terms and 
+Conditions. If you do not agree, please do not use the App.
+
+============================================
+2. CHANGES TO TERMS
+============================================
+
+We may modify these Terms at any time. Continued use after changes constitutes 
+acceptance of the new Terms.
+
+============================================
+3. DESCRIPTION OF SERVICE
+============================================
+
+Maps and Route Planner is a FREE GPS navigation app that provides:
+- Real-time GPS tracking and navigation
+- Route optimization with multiple stops
+- Traffic and weather information
+- Compass and speedometer
+- Nearby places search
+- Distance measurement
+
+The App uses Google Maps Platform and other third-party services.
+
+============================================
+4. LICENSE AND RESTRICTIONS
+============================================
+
+LIMITED LICENSE:
+We grant you a limited, non-exclusive, revocable license to use the App 
+for personal purposes.
+
+YOU AGREE NOT TO:
+- Reverse engineer or modify the App
+- Copy or redistribute the App
+- Use the App for illegal purposes
+- Attempt unauthorized access
+- Use automated systems to access the App
+- Resell or sublicense the App
+
+============================================
+5. USER RESPONSIBILITIES AND SAFETY
+============================================
+
+🚨 CRITICAL SAFETY WARNING:
+
+DO NOT use the App while driving unless using hands-free mode!
+
+- Mount your device safely before driving
+- Set your destination before driving
+- ALWAYS obey traffic laws and road signs
+- Use your own judgment - the App is a navigation aid only
+- Pay attention to road conditions
+
+============================================
+6. LOCATION SERVICES AND GPS
+============================================
+
+LOCATION ACCURACY:
+- GPS accuracy depends on device, location, weather, and satellites
+- Not available in all areas
+- No guarantee of 100% accuracy
+
+LOCATION USAGE:
+By granting permissions, you authorize the App to:
+- Access your device's location
+- Share location with Google Maps
+- Display your location on maps
+- Calculate routes
+
+============================================
+7. THIRD-PARTY SERVICES
+============================================
+
+GOOGLE MAPS:
+The App uses Google Maps Platform. You also agree to:
+- Google Maps Terms of Service
+- Google Privacy Policy
+
+THIRD-PARTY DATA:
+Map data, traffic, and weather are from third parties. We do not guarantee 
+accuracy, completeness, or timeliness.
+
+============================================
+8. ADVERTISEMENTS
+============================================
+
+The App displays ads through Google AdMob to keep the service FREE.
+
+- We don't control ad content
+- Clicking ads may redirect to third-party sites
+- Transactions with advertisers are between you and them
+
+============================================
+9. INTELLECTUAL PROPERTY
+============================================
+
+All content, code, design, graphics, and trademarks are owned by us or our 
+licensors and are protected by intellectual property laws.
+
+============================================
+10. DISCLAIMER OF WARRANTIES
+============================================
+
+THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND.
+
+WE DO NOT GUARANTEE:
+- The App will meet your requirements
+- Availability at all times
+- Error-free operation
+- Optimal or fastest routes
+- Accurate traffic information
+- Current or complete maps
+
+NAVIGATION DISCLAIMER:
+We are NOT responsible for:
+- Navigation errors or wrong directions
+- Outdated map information
+- Road closures not shown
+- Accidents or injuries from following directions
+- Property damage
+
+ALWAYS USE YOUR OWN JUDGMENT AND OBEY ALL TRAFFIC LAWS!
+
+============================================
+11. LIMITATION OF LIABILITY
+============================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE ARE NOT LIABLE FOR:
+- Direct, indirect, or consequential damages
+- Loss of profits or data
+- Personal injury or property damage
+- Damages from using or inability to use the App
+- Damages from relying on App information
+
+Some jurisdictions limit these exclusions. Our liability will be limited 
+to the maximum extent permitted by law.
+
+============================================
+12. SERVICE AVAILABILITY
+============================================
+
+We may:
+- Suspend the App for maintenance
+- Update or modify features anytime
+- Discontinue features without notice
+
+THE APP REQUIRES:
+- Active internet connection
+- GPS and location services enabled
+- Compatible Android device
+
+We're not responsible for interruptions from your ISP, carrier, or device.
+
+============================================
+13. PRIVACY AND DATA
+============================================
+
+See our Privacy Policy for details on data collection and use.
+
+By using the App, you consent to:
+- Collection of location data
+- Data processing as described in Privacy Policy
+- Sharing data with Google Maps and necessary services
+
+============================================
+14. USER CONDUCT
+============================================
+
+YOU AGREE NOT TO:
+- Harass or harm others
+- Interfere with the App's operation
+- Violate laws or regulations
+- Infringe intellectual property rights
+- Transmit viruses or malicious code
+
+We may suspend or terminate access for violations.
+
+============================================
+15. AGE AND PARENTAL GUIDANCE
+============================================
+
+This App is suitable for users of all ages. However, it is designed for 
+general navigation purposes and not specifically directed at children.
+
+PARENTAL GUIDANCE:
+- We recommend parental supervision for children using navigation apps
+- Children under 18 should use with parental awareness and consent
+- Parents can manage permissions through device controls
+
+============================================
+16. TERMINATION
+============================================
+
+BY YOU:
+Stop using the App anytime by uninstalling it.
+
+BY US:
+We may terminate access if you violate Terms or engage in illegal activities.
+
+EFFECT:
+Your license ends immediately. Uninstall the App from your device.
+
+============================================
+17. SEVERABILITY
+============================================
+
+If any provision is invalid, it will be limited to the minimum extent 
+necessary, and other provisions remain in effect.
+
+============================================
+18. ENTIRE AGREEMENT
+============================================
+
+These Terms and our Privacy Policy constitute the entire agreement.
+
+============================================
+19. NO WAIVER
+============================================
+
+Our failure to enforce any provision is not a waiver of that provision.
+
+============================================
+20. CONTACT INFORMATION
+============================================
+
+Questions or concerns? Contact us:
+Email: 118apps@gmail.com
+Response Time: Within 48 hours
+
+============================================
+21. ACKNOWLEDGMENT
+============================================
+
+BY USING MAPS AND ROUTE PLANNER, YOU ACKNOWLEDGE THAT YOU HAVE READ, 
+UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS.
+
+============================================
+SUMMARY
+============================================
+
+✓ App is provided "as is" without warranties
+✓ USE SAFELY - NEVER USE WHILE DRIVING
+✓ We are not liable for navigation errors or accidents
+✓ Location shared with Google Maps for functionality
+✓ Parental guidance recommended for children
+✓ Ads keep the service free
+✓ ALWAYS OBEY TRAFFIC LAWS AND ROAD SIGNS
+✓ Internet and GPS required
+✓ Contact: 118apps@gmail.com
+
+Safe travels and thank you for using Maps and Route Planner!
+
