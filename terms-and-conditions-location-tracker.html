@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - Location Tracker & GPS Tools</title>
+    <style>
+        :root {
+            --primary-color: #1a73e8;
+            --text-color: #202124;
+            --text-secondary: #5f6368;
+            --bg-color: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dadce0;
+            --warning-bg: #fef7e0;
+            --warning-border: #f9ab00;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 0;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #34a853 0%, #1e7e34 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .header .app-name {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .header .last-updated {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 15px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        
+        h3 {
+            color: var(--text-color);
+            font-size: 1.2rem;
+            margin: 25px 0 15px 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: var(--text-secondary);
+        }
+        
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+        }
+        
+        .highlight-box {
+            background-color: #e8f0fe;
+            border-left: 4px solid var(--primary-color);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+            color: var(--text-color);
+        }
+        
+        .warning-box {
+            background-color: var(--warning-bg);
+            border-left: 4px solid var(--warning-border);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .warning-box p {
+            margin: 0;
+            color: var(--text-color);
+        }
+        
+        .section {
+            background-color: var(--section-bg);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        
+        .legal-text {
+            background-color: #f1f3f4;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            margin: 20px 0;
+        }
+        
+        .legal-text p {
+            text-transform: uppercase;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+        
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e8eaed 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .contact-box h3 {
+            margin-top: 0;
+        }
+        
+        .contact-box a {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: var(--section-bg);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        .acknowledgment {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .acknowledgment p {
+            color: var(--text-color);
+            font-weight: 500;
+            margin: 0;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .container {
+                padding: 20px 15px;
+            }
+            
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Terms and Conditions</h1>
+        <div class="app-name">Location Tracker & GPS Tools</div>
+        <div class="last-updated">Last Updated: November 25, 2025</div>
+    </div>
+    
+    <div class="container">
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or using Location Tracker & GPS Tools ("App"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, do not use the App.</p>
+        <p>These Terms apply to the Location Tracker & GPS Tools application (package: com.appmaker.locationtracker) available on Google Play Store.</p>
+        
+        <h2>2. Description of Service</h2>
+        <p>Location Tracker & GPS Tools is a mobile application that provides:</p>
+        <ul>
+            <li>GPS location tracking and history</li>
+            <li>Real-time compass with magnetic declination</li>
+            <li>Speedometer with trip tracking</li>
+            <li>Weather information and forecasts</li>
+            <li>Current location display with address</li>
+            <li>Distance measurement tools</li>
+        </ul>
+        
+        <h2>3. License Grant</h2>
+        <p>Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to:</p>
+        <ul>
+            <li>Download and install the App on your personal mobile device</li>
+            <li>Use the App for personal, non-commercial purposes</li>
+        </ul>
+        
+        <h2>4. Restrictions</h2>
+        <p>You agree NOT to:</p>
+        <ol>
+            <li>Copy, modify, or distribute the App or its content</li>
+            <li>Reverse engineer, decompile, or disassemble the App</li>
+            <li>Remove any copyright or proprietary notices</li>
+            <li>Use the App for any illegal or unauthorized purpose</li>
+            <li>Transmit any viruses, malware, or harmful code</li>
+            <li>Attempt to gain unauthorized access to our systems</li>
+            <li>Use the App while driving or operating machinery in an unsafe manner</li>
+            <li>Rely solely on the App for critical navigation or safety decisions</li>
+        </ol>
+        
+        <h2>5. User Responsibilities</h2>
+        
+        <div class="warning-box">
+            <p><strong>⚠️ Safety Warning:</strong> Do not use the App while driving or in situations where distraction could be dangerous. The speedometer is for informational purposes only; always refer to your vehicle's speedometer.</p>
+        </div>
+        
+        <h3>Permissions</h3>
+        <p>You are responsible for:</p>
+        <ul>
+            <li>Granting necessary permissions (location, notifications) for App functionality</li>
+            <li>Understanding that denying permissions may limit App features</li>
+            <li>Managing your device's battery and data usage</li>
+        </ul>
+        
+        <h3>Data Accuracy</h3>
+        <ul>
+            <li>Location accuracy depends on GPS signal strength and device capabilities</li>
+            <li>Weather data is provided by third parties and may not always be accurate</li>
+            <li>Compass readings may be affected by magnetic interference</li>
+        </ul>
+        
+        <h2>6. Intellectual Property</h2>
+        
+        <h3>Ownership</h3>
+        <p>All rights, title, and interest in the App, including but not limited to:</p>
+        <ul>
+            <li>Software code and architecture</li>
+            <li>User interface design</li>
+            <li>Graphics, icons, and visual elements</li>
+            <li>Documentation and content</li>
+        </ul>
+        <p>remain the exclusive property of Location Tracker & GPS Tools and its licensors.</p>
+        
+        <h3>Third-Party Content</h3>
+        <p>The App uses third-party services and content:</p>
+        <ul>
+            <li>Google Maps and Google Play Services (© Google LLC)</li>
+            <li>OpenWeatherMap weather data</li>
+            <li>Google AdMob advertising</li>
+        </ul>
+        <p>These are subject to their respective terms and licenses.</p>
+        
+        <h2>7. Advertisements</h2>
+        
+        <div class="section">
+            <h3>Ad-Supported App</h3>
+            <p>The App is free and supported by advertisements. By using the App, you agree to:</p>
+            <ul>
+                <li>View advertisements displayed within the App</li>
+                <li>Allow collection of advertising-related data as described in our Privacy Policy</li>
+            </ul>
+        </div>
+        
+        <h3>Ad Content</h3>
+        <p>We do not control the content of third-party advertisements. We are not responsible for:</p>
+        <ul>
+            <li>Products or services advertised</li>
+            <li>Accuracy of advertising claims</li>
+            <li>Your interactions with advertisers</li>
+        </ul>
+        
+        <h2>8. Disclaimer of Warranties</h2>
+        
+        <div class="legal-text">
+            <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO: MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY OR RELIABILITY OF INFORMATION, UNINTERRUPTED OR ERROR-FREE OPERATION.</p>
+        </div>
+        
+        <h3>Specific Disclaimers</h3>
+        <ul>
+            <li><strong>GPS Accuracy:</strong> We do not guarantee the accuracy of GPS data</li>
+            <li><strong>Weather Information:</strong> Weather data is provided by third parties and may be inaccurate</li>
+            <li><strong>Compass Calibration:</strong> Compass accuracy depends on device sensors and environmental factors</li>
+            <li><strong>Speed Readings:</strong> Speedometer readings are estimates and should not replace vehicle instruments</li>
+        </ul>
+        
+        <h2>9. Limitation of Liability</h2>
+        
+        <div class="legal-text">
+            <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, LOSS OF PROFITS, DATA, OR GOODWILL, OR DAMAGES RESULTING FROM YOUR USE OR INABILITY TO USE THE APP, UNAUTHORIZED ACCESS TO YOUR DATA, ERRORS OR OMISSIONS IN CONTENT, OR PERSONAL INJURY OR PROPERTY DAMAGE RELATED TO APP USE.</p>
+        </div>
+        
+        <p><strong>Maximum Liability:</strong> Our total liability shall not exceed the amount you paid for the App (if any) in the 12 months preceding the claim.</p>
+        
+        <h2>10. Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless Location Tracker & GPS Tools, its officers, directors, employees, and agents from any claims, damages, losses, or expenses (including legal fees) arising from:</p>
+        <ol>
+            <li>Your use of the App</li>
+            <li>Your violation of these Terms</li>
+            <li>Your violation of any third-party rights</li>
+            <li>Your negligent or wrongful conduct</li>
+        </ol>
+        
+        <h2>11. Termination</h2>
+        
+        <h3>By You</h3>
+        <p>You may stop using the App at any time by uninstalling it from your device.</p>
+        
+        <h3>By Us</h3>
+        <p>We may terminate or suspend your access to the App at any time, without notice, for:</p>
+        <ul>
+            <li>Violation of these Terms</li>
+            <li>Conduct harmful to other users or us</li>
+            <li>Any reason at our sole discretion</li>
+        </ul>
+        
+        <h3>Effect of Termination</h3>
+        <p>Upon termination:</p>
+        <ul>
+            <li>Your license to use the App ends immediately</li>
+            <li>You must delete all copies of the App</li>
+            <li>Provisions that should survive termination will remain in effect</li>
+        </ul>
+        
+        <h2>12. Changes to Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. Changes will be effective when posted. Your continued use of the App after changes constitutes acceptance of the new Terms.</p>
+        <p>We will notify you of significant changes through:</p>
+        <ul>
+            <li>In-app notifications</li>
+            <li>Updated "Last Updated" date</li>
+        </ul>
+        
+        <h2>13. Governing Law</h2>
+        <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which we operate, without regard to conflict of law principles.</p>
+        
+        <h2>14. Dispute Resolution</h2>
+        
+        <h3>Informal Resolution</h3>
+        <p>Before filing any legal claim, you agree to try to resolve disputes informally by contacting us at <a href="mailto:118apps@gmail.com">118apps@gmail.com</a>.</p>
+        
+        <h3>Class Action Waiver</h3>
+        <p>You agree to resolve disputes individually and waive any right to participate in class actions.</p>
+        
+        <h2>15. Severability</h2>
+        <p>If any provision of these Terms is found unenforceable, the remaining provisions will continue in full force and effect.</p>
+        
+        <h2>16. Entire Agreement</h2>
+        <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the App.</p>
+        
+        <h2>17. No Waiver</h2>
+        <p>Our failure to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.</p>
+        
+        <h2>18. Assignment</h2>
+        <p>You may not assign or transfer these Terms without our prior written consent. We may assign our rights and obligations without restriction.</p>
+        
+        <div class="contact-box">
+            <h3>Contact Information</h3>
+            <p>For questions about these Terms, please contact us:</p>
+            <p><a href="mailto:118apps@gmail.com">118apps@gmail.com</a></p>
+            <p style="margin-top: 15px; font-size: 0.9rem;">
+                <strong>App:</strong> Location Tracker & GPS Tools<br>
+                <strong>Package:</strong> com.appmaker.locationtracker
+            </p>
+        </div>
+        
+        <div class="acknowledgment">
+            <p>BY USING LOCATION TRACKER & GPS TOOLS, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS.</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 Location Tracker & GPS Tools. All rights reserved.</p>
+    </div>
+</body>
+</html>
+
