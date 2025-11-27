@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Age Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FF6B6B;
+            --primary-dark: #EE5A5A;
+            --secondary: #4ECDC4;
+            --accent: #FFE66D;
+            --dark: #2C3E50;
+            --dark-light: #34495E;
+            --text: #2C3E50;
+            --text-light: #5D6D7E;
+            --background: #FAFBFC;
+            --white: #FFFFFF;
+            --gradient-start: #FF6B6B;
+            --gradient-mid: #FF8E53;
+            --gradient-end: #FFA726;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 50%, var(--gradient-end) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+            animation: pulse 15s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header .icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+        }
+        
+        .header .app-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            opacity: 0.95;
+            margin-bottom: 10px;
+        }
+        
+        .header .updated {
+            font-size: 0.95rem;
+            opacity: 0.85;
+            font-weight: 500;
+        }
+        
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 50px 25px;
+        }
+        
+        h2 {
+            color: var(--dark);
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin: 50px 0 25px 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        h2::before {
+            content: '';
+            width: 5px;
+            height: 28px;
+            background: linear-gradient(180deg, var(--primary) 0%, var(--gradient-end) 100%);
+            border-radius: 3px;
+        }
+        
+        h3 {
+            color: var(--dark-light);
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin: 30px 0 15px 0;
+        }
+        
+        p {
+            color: var(--text-light);
+            margin-bottom: 18px;
+            font-weight: 400;
+        }
+        
+        ul {
+            color: var(--text-light);
+            margin: 20px 0 20px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        li {
+            margin-bottom: 14px;
+            padding-left: 28px;
+            position: relative;
+        }
+        
+        li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        li strong {
+            color: var(--dark);
+            font-weight: 600;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #E8F8F5 0%, #D5F5E3 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px 30px;
+            margin: 30px 0;
+            border-radius: 0 16px 16px 0;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+            color: var(--dark);
+            font-weight: 500;
+        }
+        
+        .highlight-box .emoji {
+            font-size: 1.4em;
+            margin-right: 8px;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 100%);
+            padding: 45px 35px;
+            border-radius: 24px;
+            text-align: center;
+            margin: 50px 0;
+            box-shadow: 0 20px 40px rgba(255, 107, 107, 0.25);
+        }
+        
+        .contact-box h3 {
+            color: white;
+            margin: 0 0 20px 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .contact-box p {
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 20px;
+        }
+        
+        .contact-box a {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.15rem;
+            padding: 14px 32px;
+            border-radius: 50px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .contact-box a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .footer {
+            background: var(--dark);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+        }
+        
+        .footer .app-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .footer .app-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .footer .version {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-bottom: 5px;
+        }
+        
+        .footer .copyright {
+            font-size: 0.85rem;
+            opacity: 0.5;
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 25px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        
+        .intro {
+            font-size: 1.1rem;
+            color: var(--dark-light);
+            line-height: 1.9;
+        }
+        
+        @media (max-width: 600px) {
+            .header {
+                padding: 60px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .header .icon {
+                font-size: 3rem;
+            }
+            
+            h2 {
+                font-size: 1.4rem;
+            }
+            
+            .container {
+                padding: 30px 18px;
+            }
+            
+            .contact-box {
+                padding: 35px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <span class="icon">🛡️</span>
+            <h1>Privacy Policy</h1>
+            <p class="app-name">🎂 Age Calculator</p>
+            <p class="updated">Last Updated: November 27, 2025</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <p class="intro">Welcome to Age Calculator. We respect your privacy and are committed to protecting your personal data. This policy explains how we handle your information.</p>
+        
+        <h2>Information We Collect</h2>
+        
+        <div class="card">
+            <h3>📝 Information You Provide</h3>
+            <ul>
+                <li><strong>Birthdate Information:</strong> When you use our age calculation features, you may enter birthdates. This information is stored locally on your device and is never transmitted to our servers.</li>
+                <li><strong>Saved Profiles:</strong> Names, birthdates, and notes you save for birthdays and events are stored locally on your device.</li>
+                <li><strong>Saved Calculations:</strong> Any calculations you save are stored locally on your device.</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>📊 Information Collected Automatically</h3>
+            <ul>
+                <li><strong>Device Information:</strong> We may collect device type, operating system version, and unique device identifiers for analytics purposes.</li>
+                <li><strong>Usage Data:</strong> We collect anonymized usage statistics to improve app functionality and user experience.</li>
+                <li><strong>Crash Reports:</strong> If the app crashes, we collect crash logs to identify and fix bugs.</li>
+            </ul>
+        </div>
+        
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li>Provide and maintain the App's functionality</li>
+            <li>Calculate ages, date differences, and related statistics</li>
+            <li>Store your preferences and saved data locally</li>
+            <li>Display relevant advertisements</li>
+            <li>Improve our App and develop new features</li>
+            <li>Analyze usage patterns and fix technical issues</li>
+        </ul>
+        
+        <h2>Data Storage</h2>
+        <div class="highlight-box">
+            <p><span class="emoji">📱</span> All personal data (birthdates, names, saved calculations, events) is stored <strong>locally on your device</strong>. We do not upload, transmit, or store any of your personal information on external servers.</p>
+        </div>
+        
+        <p>You have complete control over your data and can:</p>
+        <ul>
+            <li>Export your data at any time</li>
+            <li>Import data from backups</li>
+            <li>Delete all data through the app settings</li>
+        </ul>
+        
+        <h2>Third-Party Services</h2>
+        <p>Our App uses the following third-party services:</p>
+        
+        <div class="card">
+            <h3>📢 Google AdMob</h3>
+            <p>We display advertisements through Google AdMob. AdMob may collect certain information for ad personalization. For more information, see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+            
+            <h3>🔥 Google Firebase</h3>
+            <p>We use Firebase for:</p>
+            <ul>
+                <li><strong>Crashlytics:</strong> To collect crash reports and improve app stability</li>
+                <li><strong>Analytics:</strong> To understand how users interact with our app</li>
+            </ul>
+            <p>For more information, see <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a>.</p>
+        </div>
+        
+        <h2>Advertising</h2>
+        <p>Our App displays banner advertisements served by Google AdMob. You may see personalized ads based on your interests, or you can opt out of personalized advertising in your device settings.</p>
+        
+        <h2>Children's Privacy</h2>
+        <p>Our App does not knowingly collect personal information from children under 13. The birthdates entered for baby age tracking or other features are stored locally and never transmitted to us.</p>
+        
+        <h2>Data Security</h2>
+        <p>We implement appropriate technical measures to protect your data:</p>
+        <ul>
+            <li>All data is stored locally on your device</li>
+            <li>We do not transmit personal data over the internet</li>
+            <li>Export files are created locally and shared only at your discretion</li>
+        </ul>
+        
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access:</strong> View all data stored in the app</li>
+            <li><strong>Export:</strong> Download your data in JSON format</li>
+            <li><strong>Delete:</strong> Clear all data from the app at any time</li>
+            <li><strong>Control:</strong> Manage your data without any restrictions</li>
+        </ul>
+        
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the App. Changes are effective immediately upon posting.</p>
+        
+        <div class="contact-box">
+            <h3>📧 Questions or Concerns?</h3>
+            <p>If you have any questions about this Privacy Policy or our privacy practices, please reach out to us.</p>
+            <a href="mailto:118apps@gmail.com">118apps@gmail.com</a>
+        </div>
+        
+        <h2>Consent</h2>
+        <p>By using our App, you consent to this Privacy Policy.</p>
+    </div>
+    
+    <div class="footer">
+        <div class="app-icon">🎂</div>
+        <div class="app-title">Age Calculator</div>
+        <div class="version">Version 2.0.0</div>
+        <div class="copyright">© 2025 All Rights Reserved</div>
+    </div>
+</body>
+</html>
