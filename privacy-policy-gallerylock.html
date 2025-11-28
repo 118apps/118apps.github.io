@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Gallery Lock</title>
+    <style>
+        :root {
+            --primary: #DC2626;
+            --primary-dark: #B91C1C;
+            --bg: #0F0F0F;
+            --surface: #1A1A1A;
+            --surface-light: #2A2A2A;
+            --text: #FFFFFF;
+            --text-muted: #A0A0A0;
+            --border: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 36px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, var(--text) 0%, var(--text-muted) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .effective-date {
+            display: inline-block;
+            background: var(--surface);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-top: 16px;
+        }
+
+        section {
+            background: var(--surface);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin: 24px 0 12px;
+            color: var(--text);
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 16px;
+        }
+
+        li {
+            color: var(--text-muted);
+            padding: 8px 0 8px 28px;
+            position: relative;
+        }
+
+        li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .highlight-box {
+            background: var(--surface-light);
+            border-left: 4px solid var(--primary);
+            padding: 20px 24px;
+            border-radius: 0 12px 12px 0;
+            margin: 24px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: var(--text);
+        }
+
+        .security-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin: 16px 0;
+        }
+
+        .contact-info {
+            background: var(--surface-light);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 16px;
+        }
+
+        .contact-info a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 24px;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px 16px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            section {
+                padding: 24px 20px;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🔒</div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Gallery Lock - Your Privacy, Our Priority</p>
+            <span class="effective-date">Effective Date: November 28, 2025</span>
+        </header>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>Welcome to Gallery Lock. We are committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our application.</p>
+            
+            <div class="highlight-box">
+                <p><strong>Our Core Principle:</strong> Your private files stay private. All encryption and decryption happens locally on your device. We never have access to your hidden photos, videos, or documents.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Information We Collect</h2>
+            
+            <h3>Information Stored Locally (On Your Device Only)</h3>
+            <ul>
+                <li>Your PIN code (stored securely using Android Keystore encryption)</li>
+                <li>Security question and answer (encrypted locally)</li>
+                <li>Hidden media files (photos, videos, documents) encrypted with AES-256</li>
+                <li>App lock preferences and locked app list</li>
+                <li>App settings and preferences</li>
+            </ul>
+            <p><strong>Important:</strong> This data never leaves your device and is not accessible to us.</p>
+
+            <h3>Information Collected Automatically</h3>
+            <ul>
+                <li>Anonymous crash reports and performance data (via Firebase Crashlytics)</li>
+                <li>Anonymous usage analytics to improve the app experience</li>
+                <li>Device information (model, OS version) for compatibility purposes</li>
+                <li>Advertising ID for personalized ads (can be reset in device settings)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How We Use Your Information</h2>
+            <ul>
+                <li>To provide secure vault functionality for your private files</li>
+                <li>To protect your selected apps with PIN/fingerprint lock</li>
+                <li>To improve app stability and fix bugs</li>
+                <li>To understand usage patterns and improve user experience</li>
+                <li>To display relevant advertisements</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Data Security</h2>
+            
+            <div class="security-badge">
+                🛡️ Military-Grade AES-256 Encryption
+            </div>
+            
+            <p>We implement industry-leading security measures to protect your data:</p>
+            <ul>
+                <li>All hidden files are encrypted using AES-256-GCM encryption</li>
+                <li>Encryption keys are stored in Android Keystore (hardware-backed on supported devices)</li>
+                <li>PIN codes are securely hashed and never stored in plain text</li>
+                <li>Biometric data is processed by your device's secure enclave, never by our app</li>
+                <li>No cloud storage - all sensitive data remains on your device</li>
+            </ul>
+
+            <div class="highlight-box">
+                <p><strong>Zero-Knowledge Architecture:</strong> We have designed Gallery Lock so that we cannot access your hidden content even if we wanted to. Your privacy is mathematically guaranteed.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Third-Party Services</h2>
+            <p>Gallery Lock uses the following third-party services:</p>
+            
+            <h3>Google AdMob</h3>
+            <p>We display advertisements to support free access to our app. AdMob may collect device information and advertising identifiers. You can opt out of personalized ads in your device settings.</p>
+            
+            <h3>Firebase Analytics & Crashlytics</h3>
+            <p>We use Firebase services to collect anonymous usage data and crash reports. This helps us improve app performance and fix issues quickly. No personal or sensitive data is shared with Firebase.</p>
+            
+            <p>For more information about how Google handles data, please visit: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></p>
+        </section>
+
+        <section>
+            <h2>Permissions We Request</h2>
+            <ul>
+                <li><strong>Storage Access:</strong> Required to hide and encrypt your photos, videos, and documents</li>
+                <li><strong>Camera (Optional):</strong> Only if you choose to take photos directly within the app</li>
+                <li><strong>Biometric:</strong> To enable fingerprint/face unlock for added convenience</li>
+                <li><strong>Usage Access:</strong> Required for App Lock feature to detect when protected apps are opened</li>
+                <li><strong>Display Over Apps:</strong> Required to show the lock screen when protected apps are launched</li>
+                <li><strong>Notifications:</strong> To show App Lock service status</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Data Retention</h2>
+            <p>Your hidden files and settings are stored on your device until you choose to delete them or uninstall the app.</p>
+            <ul>
+                <li>Uninstalling the app will permanently delete all hidden files and settings</li>
+                <li>Anonymous analytics data is retained in accordance with Firebase Analytics data retention policies</li>
+                <li>Crash reports are retained in accordance with Firebase Crashlytics data retention policies</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <p><strong>Warning:</strong> If you forget your PIN and cannot answer your security question, there is no way to recover your hidden files. We do not have access to your encryption keys.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>Gallery Lock is not intended for children under 13 years of age. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us immediately.</p>
+        </section>
+
+        <section>
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access all your data stored within the app</li>
+                <li>Delete your data by uninstalling the app or using the restore function</li>
+                <li>Opt out of personalized advertising through device settings</li>
+                <li>Disable analytics collection (contact us for instructions)</li>
+                <li>Request information about data we may have collected</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the new policy in the app and updating the "Effective Date" above. We encourage you to review this policy periodically.</p>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+            
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:118apps@gmail.com">118apps@gmail.com</a></p>
+                <p><strong>Subject Line:</strong> Privacy Policy Inquiry - Gallery Lock</p>
+            </div>
+            
+            <p style="margin-top: 16px;">We aim to respond to all inquiries within 48 hours.</p>
+        </section>
+
+        <footer>
+            <p>© 2025 Gallery Lock. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy-policy.html">Privacy Policy</a> · 
+                <a href="terms-of-service.html">Terms of Service</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+
